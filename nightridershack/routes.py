@@ -14,9 +14,10 @@ import json
 
 mail = Mail()
 mysql = MySQL()
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'commonpassword'
-app.config['MYSQL_DATABASE_DB'] = 'users'
+app.config['MYSQL_DATABASE_DB'] = 'nightriders'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
