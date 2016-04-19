@@ -1,2 +1,6 @@
 pip install Flask
 pip install flask-mysql
+pip install flask-wtf
+pip install simplejson
+pip install Flask-mail
+pip install Flask-SQLAlchemy

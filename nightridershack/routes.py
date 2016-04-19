@@ -14,9 +14,9 @@ import json
 
 mail = Mail()
 mysql = MySQL()
-app.config['MYSQL_DATABASE_USER'] = 'gen'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'gen'
-app.config['MYSQL_DATABASE_DB'] = 'genlysis_1'
+app.config['MYSQL_DATABASE_USER'] = 'root'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'commonpassword'
+app.config['MYSQL_DATABASE_DB'] = 'users'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
